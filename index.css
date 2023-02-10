@@ -1,0 +1,127 @@
+/* Block , inline & Inline-Block  */
+
+
+.test {
+    /* background-color: blue ;
+    color: yellow ; */
+    /* padding-left: 30px;
+    padding-right: 100px;
+    padding-top: 100px;
+    padding-bottom: 20px; */
+    /* padding: 10px 20px 30px 40px ; */
+    /* padding: 30px 20px 100px; */
+    /* padding: 20px 10px; */
+    /* padding: 20px; */
+    /* border-top-width: 20px;
+    border-top-style: solid;
+    border-top-color: red ; */
+    /* border-top: solid red 20px;
+    border-right: 30px solid yellow ;
+    border-bottom: 20px groove tomato ;
+    border-left: 20px dashed orange; */
+
+    /* border: 20px solid green ;
+    width: 200px ;
+    height: 200px; */
+    /* margin-left: 200px;
+    margin-top: 30px;
+    margin-bottom: 100px; */
+    /* margin: 10px 40px ; */
+}
+.block {
+    /* Block level element */
+    background-color: red;
+    width: 200px;
+    padding: 40px;
+    border: 20px solid green;
+    /* margin: 30px; */
+}
+.inline {
+    /* Inline element */
+    background-color: orange ;
+    /* width: 200px;
+    height: 2000px; */
+    /* padding: 50px; */
+    /* border: 90px solid green ; */
+    margin: 100px;
+
+}
+
+.aravind {
+    background-color: blue ;
+    /* border: 2px solid black; */
+    /* display: inline-block; */
+    display: inline-block;
+    padding: 20px;
+    /* margin : 40px;
+    width: 200px;
+    height: 300px; */
+}
+/* #test {
+    color: orange ;
+    background-color: blue;
+}
+
+.test {
+    color: red ;
+    background-color: aquamarine;
+    font-size: 32px;
+}
+
+div{
+    color: yellow ;
+    background-color: black ;
+} */
+
+
+
+/*
+tag, class, id
+
+id > class > tagname 
+*/
+
+
+/*
+color, background-color, font-size
+
+width & height 
+padding
+
+padding: top right bottom left ;
+padding: top horizantal bottom; 
+padding: vertical horizantal ;
+padding: all ;
+
+
+border
+border-color 
+border-style 
+border-width
+
+margin
+*/
+/* 
+Nature of elements & Box model : 
+
+
+Block level elements: 
+The elements which takes 100% width of their parent's is we call as a block level element.(div is a block)
+
+Inline elements: 
+the elements which takes the width that they want are called as inline elements 
+(span is a inline element)
+
+
+
+
+Technical differences between block & inline elements : 
+
+1) w.r.to height & width these properties can not be applied to inline elements as they take the area based on the content 
+
+2) padding will be applied properly (as expected) for the block elements whereas for inline elements the padding effetcs the above & below elements 
+
+3)The behaviour of border is same as padding ;
+
+4) margin is applied only in horizantal direction for the inline elements .
+*/

@@ -1,0 +1,18 @@
+/* 
+4 combinators 
+
+descendent combinator = space
+child combinator = > 
+sibling combinator = ~ (tilda)
+next all siblings = +
+
+combinator is an operator which we use to combine multiple selectors
+*/
+/* For the class parent to target all the spane descendents  */
+/* .parent p{
+    color: red ;
+} */
+
+.parent > p {
+    border: 2px solid red ; 
+}
